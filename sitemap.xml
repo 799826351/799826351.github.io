@@ -7,6 +7,11 @@
     </sitemap>
 
     <sitemap>
+        <loc>http://yoursite.com/page-sitemap.xml</loc>
+        <lastmod>2018-04-11T07:25:04.594Z</lastmod>
+    </sitemap>
+
+    <sitemap>
         <loc>http://yoursite.com/tag-sitemap.xml</loc>
         <lastmod>2018-04-10T07:13:01.660Z</lastmod>
     </sitemap>
