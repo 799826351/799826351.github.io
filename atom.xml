@@ -5,9 +5,9 @@
   <subtitle>Unknown to death,Nor known to life</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://quanjh.cn/"/>
   <updated>2018-04-10T07:13:01.660Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://quanjh.cn/</id>
   
   <author>
     <name>荃</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>GFW原理分析</title>
-    <link href="http://yoursite.com/GFW.html"/>
-    <id>http://yoursite.com/GFW.html</id>
+    <link href="http://quanjh.cn/GFW.html"/>
+    <id>http://quanjh.cn/GFW.html</id>
     <published>2018-04-10T06:32:42.000Z</published>
     <updated>2018-04-10T07:13:01.660Z</updated>
     
@@ -36,14 +36,14 @@
     </summary>
     
     
-      <category term="GFW" scheme="http://yoursite.com/tags/GFW/"/>
+      <category term="GFW" scheme="http://quanjh.cn/tags/GFW/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/hello-world.html"/>
-    <id>http://yoursite.com/hello-world.html</id>
+    <link href="http://quanjh.cn/hello-world.html"/>
+    <id>http://quanjh.cn/hello-world.html</id>
     <published>2018-04-10T03:31:36.119Z</published>
     <updated>2018-04-10T03:31:36.119Z</updated>
     
