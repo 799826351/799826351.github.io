@@ -9,7 +9,7 @@ var OriginTitile = document.title;
      }
      else {
          $('[rel="icon"]').attr('href', "/favicon.ico");
-         document.title = '( ゜ -゜)つロ干杯~~' + OriginTitile;
+         document.title = '( ゜ -゜)つロ干杯~' + OriginTitile;
          titleTime = setTimeout(function () {
              document.title = OriginTitile;
          }, 2000);
