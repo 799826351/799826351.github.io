@@ -3,7 +3,6 @@
 color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
 
 
-
 <!DOCTYPE html>
 
 
@@ -11,14 +10,24 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next pisces use-motion" lang="zh-CN">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
 <meta name="theme-color" content="#222">
 
 
+
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
 
 
 
@@ -56,48 +65,25 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=6.1.0" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.1.0">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.1.0">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.1.0">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-  <link rel="alternate" href="/atom.xml" title="荃" type="application/atom+xml" />
+  <link rel="mask-icon" href="/images/logo.svg?v=6.1.0" color="#222">
 
 
 
 
 
 
-<meta name="description" content="在这个世界上, 人所处的绝境, 在很多情况下, 都不是生存的绝境, 而是精神的绝境!">
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://quanjh.cn/tags/index.html">
-<meta property="og:site_name" content="荃">
-<meta property="og:description" content="在这个世界上, 人所处的绝境, 在很多情况下, 都不是生存的绝境, 而是精神的绝境!">
-<meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-11T07:22:26.413Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
-<meta name="twitter:description" content="在这个世界上, 人所处的绝境, 在很多情况下, 都不是生存的绝境, 而是精神的绝境!">
 
 
 
@@ -106,15 +92,13 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
   var CONFIG = {
     root: '/',
     scheme: 'Pisces',
-    version: '5.1.4',
+    version: '6.1.0',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
+    fastclick: false,
+    lazyload: false,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -126,12 +110,39 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
 </script>
 
 
+  
+
+
+
+
+  <meta name="description" content="在这个世界上, 人所处的绝境, 在很多情况下, 都不是生存的绝境, 而是精神的绝境!">
+<meta property="og:type" content="website">
+<meta property="og:title" content="tags">
+<meta property="og:url" content="http://quanjh.cn/tags/index.html">
+<meta property="og:site_name" content="荃">
+<meta property="og:description" content="在这个世界上, 人所处的绝境, 在很多情况下, 都不是生存的绝境, 而是精神的绝境!">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-04-11T07:22:26.413Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="tags">
+<meta name="twitter:description" content="在这个世界上, 人所处的绝境, 在很多情况下, 都不是生存的绝境, 而是精神的绝境!">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="荃" type="application/atom+xml" />
+
+
+
 
   <link rel="canonical" href="http://quanjh.cn/tags/"/>
 
 
 
-
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
 
   <title>tags | 荃</title>
   
@@ -143,9 +154,37 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
 
 
 
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
   
   
@@ -161,7 +200,7 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
     
 
     <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
+      <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">荃</span>
         <span class="logo-line-after"><i></i></span>
@@ -173,7 +212,7 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
   </div>
 
   <div class="site-nav-toggle">
-    <button>
+    <button aria-label="切换导航栏">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -181,76 +220,77 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
   </div>
 </div>
 
-<nav class="site-nav">
-  
 
+
+
+<nav class="site-nav">
   
     <ul id="menu" class="menu">
       
         
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
+        
+          
+  
+  <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+</li>
+
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
+        
+          
+  
+  <li class="menu-item menu-item-about">
+    <a href="/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+</li>
+
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
+        
+          
+  
+  <li class="menu-item menu-item-tags menu-item-active">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+</li>
+
       
         
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-list"></i> <br />
-            
-            分类
-          </a>
-        </li>
+        
+          
+  
+  <li class="menu-item menu-item-categories">
+    <a href="/categories/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+</li>
+
       
         
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-history"></i> <br />
-            
-            归档
-          </a>
-        </li>
+        
+          
+  
+  <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+</li>
+
       
 
+      
       
         <li class="menu-item menu-item-search">
           
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
-            
-            搜索
-          </a>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
         </li>
       
     </ul>
+  
+
   
 
   
@@ -281,12 +321,45 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
 
 
 
- </div>
+  
+
+
+
+</div>
     </header>
+
+    
+
 
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
+          
+            
+
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+    
+
+  
+
+
+          
           <div id="content" class="content">
             
 
@@ -297,9 +370,15 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
     <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
+<h1 class="post-title" itemprop="name headline">tags</h1>
+
+<div class="post-meta">
+  
+  
 
 
+
+</div>
 
 </header>
 
@@ -311,6 +390,12 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
         
           <div class="tag-cloud">
             <div class="tag-cloud-title">
+                
+                
+                  
+                    
+                  
+                
                 目前共计 1 个标签
             </div>
             <div class="tag-cloud-tags">
@@ -324,6 +409,10 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
       
     </div>
     
+
+
+
+    
     
     
   </div>
@@ -332,15 +421,10 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
           </div>
           
 
-
-          
-
   
     <div class="comments" id="comments">
       <div id="lv-container" data-id="city" data-uid="MTAyMC8zNTY1My8xMjE4OQ=="></div>
     </div>
-
-  
 
   
 
@@ -378,33 +462,37 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
               <p class="site-description motion-element" itemprop="description">在这个世界上, 人所处的绝境, 在很多情况下, 都不是生存的绝境, 而是精神的绝境!</p>
           </div>
 
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
+          
+            <nav class="site-state motion-element">
               
-                <a href="/archives">
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
               
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
 
-            
-
-            
               
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">标签</span>
-                </a>
-              </div>
-            
 
-          </nav>
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
 
           
             <div class="feed-link motion-element">
@@ -417,19 +505,17 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
 
           
             <div class="links-of-author motion-element">
-                
-                  <span class="links-of-author-item">
-                    <a href="https://github.com/799826351" target="_blank" title="GitHub">
-                      
-                        <i class="fa fa-fw fa-github"></i>GitHub</a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="https://twitter.com/L_mistletoe" target="_blank" title="Twitter">
-                      
-                        <i class="fa fa-fw fa-twitter"></i>Twitter</a>
-                  </span>
-                
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/799826351" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://twitter.com/L_mistletoe" target="_blank" title="Twitter"><i class="fa fa-fw fa-twitter"></i>Twitter</a>
+                  
+                </span>
+              
             </div>
           
 
@@ -439,6 +525,9 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
           
           
 
+          
+            
+          
           
 
         </div>
@@ -458,28 +547,22 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
-  <span class="with-love">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">荃</span>
 
- 
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
-    </span>
-    
-      <span class="post-meta-item-text">全站总字数&#58;</span>
-    
-    <span title="全站总字数">84</span>    
+  
+
   
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
-   <span class="post-meta-divider">|</span>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.7.0</div>
+  <span class="post-meta-divider">|</span>
      <div class="theme-info">
      <span>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></span>
      </div>
@@ -490,10 +573,7 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
-
-
-
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Pisces</a> v6.1.0</div>
 
 
 
@@ -503,21 +583,20 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
   <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
   
-    <span class="site-uv">
-      访客数<i class="fa fa-user"></i>
-      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-      
+    <span class="site-uv" title="总访客量">
+      <i class="fa fa-user"></i>
+      访问人数<span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
     </span>
   
 
   
-    <span class="site-pv">
-      访客量<i class="fa fa-eye"></i>
-      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-      
+    <span class="site-pv" title="总访问量">
+      <i class="fa fa-eye"></i>
+      点击次数<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
     </span>
   
 </div>
+
 
 
 
@@ -559,10 +638,16 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
 
 
 
+
+
+
   
 
 
+
   
+
+
 
 
 
@@ -577,16 +662,6 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
   
   
     <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
   
 
   
@@ -613,40 +688,36 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=6.1.0"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/motion.js?v=6.1.0"></script>
 
 
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.1.0"></script>
 
 
 
   
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.1.0"></script>
 
 
 
   
 
 
-  
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.1.0"></script>
 
+
+
+  
 
 
 
@@ -674,8 +745,6 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
       })(document, 'script');
     </script>
   
-
-
 
 
 
@@ -737,6 +806,8 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
         .css('overflow', 'hidden');
       $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
 
+      
+
       $.ajax({
         url: path,
         dataType: isXml ? "xml" : "json",
@@ -770,6 +841,7 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
                 var title = data.title.trim();
                 var titleInLowerCase = title.toLowerCase();
                 var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
                 var contentInLowerCase = content.toLowerCase();
                 var articleUrl = decodeURIComponent(data.url);
                 var indexOfTitle = [];
@@ -1016,6 +1088,10 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
   
 
   
+
+  
+  
+
   
 
   
@@ -1026,6 +1102,5 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
 
 </body>
 </html>
+<!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/love.js"></script>
-<!--崩溃欺骗-->
-<script type="text/javascript" src="/js/src/crash_cheat.js"></script>
