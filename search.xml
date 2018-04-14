@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[GFW原理分析]]></title>
-    <url>%2FGFW.html</url>
-    <content type="text"><![CDATA[这是一个测试！：）]]></content>
-      <tags>
-        <tag>GFW</tag>
-      </tags>
+    <title><![CDATA[GFW实现原理与技术]]></title>
+    <url>%2FGFW1.html</url>
+    <content type="text"></content>
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
