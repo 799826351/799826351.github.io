@@ -4,7 +4,7 @@ var OriginTitile = document.title;
  document.addEventListener('visibilitychange', function () {
      if (document.hidden) {
          $('[rel="icon"]').attr('href', "/img/TEP.ico");
-         document.title = 'bilibili( ゜ -゜)つロ ~';
+         document.title = 'bilibili(๑•́ ₃•̀๑)~';
          clearTimeout(titleTime);
      }
      else {
