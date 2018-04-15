@@ -115,20 +115,20 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
 
 
 
-  <meta name="description" content="写在前面　　从开始科学上网后就一直想写一个关于GFW原理分析的文章，中国网民可谓是和墙斗争了多年啊，从无法使用Google，不能上外网开始，大多数人都只在乎以何种方式能翻墙，却很少关心墙的运行原理，最近搭建个人网站之后正好可以来写一写。 简介　　GFW是The Great Fire Wall of China的简写，意指“中国网络防火墙”(字面意为“中国防火长城”)，这是对“国家公共网络监控系统”">
+  <meta name="description" content="写在前面　　从开始科学上网后就一直想写一个关于GFW原理分析的文章，中国网民可谓是和墙斗争了多年啊，从无法使用Google，不能上外网开始，大多数人都只在乎以何种方式能翻墙，却很少关心墙的运行原理，最近搭建个人网站之后正好可以来写一写。">
 <meta name="keywords" content="GFW">
 <meta property="og:type" content="article">
 <meta property="og:title" content="GFW工作原理（一）：暴力的IP封锁">
 <meta property="og:url" content="http://quanjh.cn/GFW1.html">
 <meta property="og:site_name" content="荃">
-<meta property="og:description" content="写在前面　　从开始科学上网后就一直想写一个关于GFW原理分析的文章，中国网民可谓是和墙斗争了多年啊，从无法使用Google，不能上外网开始，大多数人都只在乎以何种方式能翻墙，却很少关心墙的运行原理，最近搭建个人网站之后正好可以来写一写。 简介　　GFW是The Great Fire Wall of China的简写，意指“中国网络防火墙”(字面意为“中国防火长城”)，这是对“国家公共网络监控系统”">
+<meta property="og:description" content="写在前面　　从开始科学上网后就一直想写一个关于GFW原理分析的文章，中国网民可谓是和墙斗争了多年啊，从无法使用Google，不能上外网开始，大多数人都只在乎以何种方式能翻墙，却很少关心墙的运行原理，最近搭建个人网站之后正好可以来写一写。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://quanjh.cn/images/1.jpg">
 <meta property="og:image" content="http://quanjh.cn/images/2.jpg">
-<meta property="og:updated_time" content="2018-04-14T15:35:04.182Z">
+<meta property="og:updated_time" content="2018-04-15T06:18:04.085Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="GFW工作原理（一）：暴力的IP封锁">
-<meta name="twitter:description" content="写在前面　　从开始科学上网后就一直想写一个关于GFW原理分析的文章，中国网民可谓是和墙斗争了多年啊，从无法使用Google，不能上外网开始，大多数人都只在乎以何种方式能翻墙，却很少关心墙的运行原理，最近搭建个人网站之后正好可以来写一写。 简介　　GFW是The Great Fire Wall of China的简写，意指“中国网络防火墙”(字面意为“中国防火长城”)，这是对“国家公共网络监控系统”">
+<meta name="twitter:description" content="写在前面　　从开始科学上网后就一直想写一个关于GFW原理分析的文章，中国网民可谓是和墙斗争了多年啊，从无法使用Google，不能上外网开始，大多数人都只在乎以何种方式能翻墙，却很少关心墙的运行原理，最近搭建个人网站之后正好可以来写一写。">
 <meta name="twitter:image" content="http://quanjh.cn/images/1.jpg">
 
 
@@ -403,8 +403,22 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
             
             
               
+                
+              
             
 
+            
+              
+              <span class="post-meta-divider">|</span>
+              
+
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于：</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-04-15T14:18:04+08:00">2018-04-15</time>
             
           </span>
 
@@ -483,7 +497,7 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="120" src="//cdn.bootcss.com/can
       
 
       
-        <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>　　从开始科学上网后就一直想写一个关于GFW原理分析的文章，中国网民可谓是和墙斗争了多年啊，从无法使用Google，不能上外网开始，大多数人都只在乎以何种方式能翻墙，却很少关心墙的运行原理，最近搭建个人网站之后正好可以来写一写。</p>
+        <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>　　从开始科学上网后就一直想写一个关于GFW原理分析的文章，中国网民可谓是和墙斗争了多年啊，从无法使用Google，不能上外网开始，大多数人都只在乎以何种方式能翻墙，却很少关心墙的运行原理，最近搭建个人网站之后正好可以来写一写。<br><a id="more"></a></p>
 <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>　　GFW是The Great Fire Wall of China的简写，意指“中国网络防火墙”(字面意为“中国防火长城”)，这是对“国家公共网络监控系统”的俗称，国内简称“国家防火墙”。是用于抵御国外非法、不健康、不合时宜的网站的网络审查机制。境外网站（包括国内的人在境外租用空间开设的网站）一旦被列入黑名单，中国大陆任何地方均不能访问到它。<br>　　世界上很多国家都根据自己的政治现状建立了自己的防火墙，但也有很多国家没有这个墙。墙的建立主要功用还是防止意识形态的渗透与演变。通过软件和相应的技术突破墙的封锁俗称FQ。<br>　　一般情况下防火长城主要指中国对互联网内容进行自动审查和过滤监控、由计算机路由器等网络设备所构成的软硬件系统。由于中国网络审查较为完备，中国国内的不合适网站会直接行政干预和关闭，故防火长城主要作用在于对中国境内外的网络信息互相访问进行分析、过滤、阻断。</p>
 <h1 id="小测试"><a href="#小测试" class="headerlink" title="小测试"></a>小测试</h1><p>　　想要直观的感受GFW的存在，最简单的测试就是直接浏览器输入地址<a href="https://www.google.com" target="_blank" rel="noopener">www.google.com</a>，在没有使用科学上网的方法的情况下，你永远也无法打开这个网页。为什么呢？我们在命令行下使用Tracert命令追踪一下路由看看：<br><img src="/images/1.jpg" alt="1"><br>　　可以看到追踪路由时在主机202.97.24.202处断开了，说明此主机很有可能就是GFW的设备之一。接着我们查询一下该IP的信息：<br><img src="/images/2.jpg" alt="2"><br>　　可以看到显示的是电信骨干网，其实这个骨干路由器就是GFW的一部分，它通过IP封锁的方式阻止了我们访问谷歌。这是最简单也是最暴力的一种手段，下面详细介绍一下这种攻击方式。</p>
 <h1 id="IP封锁，最直接，最暴力的手段！"><a href="#IP封锁，最直接，最暴力的手段！" class="headerlink" title="IP封锁，最直接，最暴力的手段！"></a>IP封锁，最直接，最暴力的手段！</h1><h3 id="ACL技术"><a href="#ACL技术" class="headerlink" title="ACL技术"></a>ACL技术</h3><p>　　最早GFW是采用ACL（Acess Control List，访问控制列表）的方式来屏蔽IP地址的。ACL顾名思义就是对网络访问进行控制的，可以控制出境流量和入境流量，可以工作在数据链路层或网络层。要屏蔽IP地址，自然是要工作在网络层了（IP协议在网络层啊），而且是路由器负责做这活的。不清楚这些层是怎么一回事的建议去百度下“OSI层次模型”，这里就不再赘述。<br>　　<br>　　ACL实际上就是嵌在路由器中的一个黑名单，当packet（数据包）到达这个路由器时，路由器就会自动将目的IP与ACL进行匹配，如果匹配成功，那么就执行事先设定的控制动作（对于GFW而言就是直接丢弃packet）。</p>
