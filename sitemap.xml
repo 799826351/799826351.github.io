@@ -2,22 +2,22 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <sitemap>
-        <loc>https://www.quanjh.cn/post-sitemap.xml</loc>
+        <loc>https://quanjh.cn/post-sitemap.xml</loc>
         <lastmod>2018-05-01T08:51:40.304Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://www.quanjh.cn/page-sitemap.xml</loc>
+        <loc>https://quanjh.cn/page-sitemap.xml</loc>
         <lastmod>2018-04-14T06:52:17.133Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://www.quanjh.cn/category-sitemap.xml</loc>
+        <loc>https://quanjh.cn/category-sitemap.xml</loc>
         <lastmod>2018-05-01T08:51:40.304Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://www.quanjh.cn/tag-sitemap.xml</loc>
+        <loc>https://quanjh.cn/tag-sitemap.xml</loc>
         <lastmod>2018-05-01T08:51:40.304Z</lastmod>
     </sitemap>
 
